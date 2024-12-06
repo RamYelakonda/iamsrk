@@ -1,0 +1,36 @@
+/* styles.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;  /* Lighter background */
+    color: #444;  /* Slightly darker text color for better contrast */
+    text-align: center;
+    padding: 60px;  /* Increase padding for a spacious layout */
+}
+
+h1 {
+    color: #3498db;  /* Change header color to a brighter blue */
+    font-size: 3em;  /* Increase font size of header */
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.3em;  /* Increase font size for paragraph */
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.button {
+    background-color: #3498db;  /* Match button color with header */
+    color: white;
+    padding: 15px 30px;  /* Larger button padding */
+    font-size: 1.2em;  /* Increase button font size */
+    border: none;
+    border-radius: 8px;  /* Rounder button corners */
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;  /* Smooth hover transition */
+}
+
+.button:hover {
+    background-color: #2980b9;  /* Darker shade on hover */
+}
